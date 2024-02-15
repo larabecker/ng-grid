@@ -1,0 +1,865 @@
+repo_name: larabecker/ng-grid
+report_id: 906237f797a4eb7f3e3145922f2ec7e1
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T18:01:24+00:00'
+requested_by: PaulL1
+provider: github
+branch: master
+detected_tools_count: 55
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/larabecker/ng-grid
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/larabecker/ng-grid
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2013-11-21 19:42:31.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 1.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Shane Walters
+  last_updated_on: 2014-08-11 17:50:34.000000000 Z
+- name: Bower
+  description: A package manager for the web
+  website_url: http://bower.io
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/847/66db62603f426a8fc6664081811be6d4.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2014-08-04 18:22:40.000000000 Z
+- name: Coveralls
+  description: Track your project's code coverage over time, changes to files, and
+    badge your GitHub repo
+  website_url: https://coveralls.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-09-24 21:00:03.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/larabecker/ng-grid
+  detection_source: Repo Metadata
+- name: Grunt
+  description: The JavaScript Task Runner
+  website_url: http://gruntjs.com/
+  version: '0.4'
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+- name: JSHint
+  description: A Static Code Analysis Tool for JavaScript
+  website_url: http://www.jshint.com/about/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/1945/mzh2bRes_400x400.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2013-11-21 19:42:31.000000000 Z
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2013-12-09 18:54:04.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: '0.12'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2014-08-05 15:23:14.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2013-11-21 19:42:31.000000000 Z
+- name: PhantomJS
+  description: Scriptable Headless WebKit
+  website_url: https://phantomjs.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/1832/phantomjs.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2013-12-09 18:54:04.000000000 Z
+- name: Protractor
+  description: End-to-end test framework for Angular and AngularJS applications
+  website_url: http://angular.github.io/protractor
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1754/protractor-logo1.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Paul Lambert
+  last_updated_on: 2014-09-24 08:15:26.000000000 Z
+- name: RequireJS
+  description: JavaScript file and module loader
+  website_url: http://requirejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/852/1781835.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2013-12-11 20:01:45.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: c0bra
+  last_updated_on: 2014-08-27 14:21:54.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2013-11-21 19:42:31.000000000 Z
+- name: pdfmake
+  description: Client/server side PDF printing in pure JavaScript
+  website_url: http://pdfmake.org
+  open_source: false
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Conversion
+  image_url: https://img.stackshare.io/service/3665/default_9ec0b1ccada9261069f4789939e98f85f21bb4fc.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Paul Lambert
+  last_updated_on: 2014-09-12 09:51:00.000000000 Z
+- name: Firefox
+  description: Mozilla's Web Browser
+  website_url: https://www.mozilla.org/en-US/firefox/
+  open_source: false
+  hosted_saas: false
+  category: Back Office
+  sub_category: Web Browser
+  image_url: https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2013-12-11 20:01:45.000000000 Z
+- name: Google Code Prettify
+  description: An embeddable script that makes source-code snippets in HTML prettier
+  website_url: https://github.com/google/code-prettify
+  version: 1.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3626/no-img-open-source.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Shane Walters
+  last_updated_on: 2014-08-04 16:53:38.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 2.4.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Paul Lambert
+  last_updated_on: 2014-09-12 09:51:00.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/larabecker/ng-grid
+  detection_source: Repo Metadata
+- name: bower
+  description: The browser package manager
+  package_url: https://www.npmjs.com/bower
+  version: 1.3.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16205/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2014-08-04 18:22:40.000000000 Z
+  vulnerabilities:
+  - name: Symlink Arbitrary File Overwrite in bower
+    cve_id: CVE-2019-5484
+    cve_url: https://github.com/advisories/GHSA-p6mr-pxg4-68hx
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.8.8
+- name: grunt-angular-templates
+  description: Grunt build task to concatenate &amp; register your AngularJS templates
+    in the $templateCache
+  package_url: https://www.npmjs.com/grunt-angular-templates
+  version: '0.5'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18294/default_9ae2e40a3e32029f10bcda38c2cdc25f1a6acd23.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+- name: grunt-bump
+  description: Bump package version
+  package_url: https://www.npmjs.com/grunt-bump
+  version: 0.0.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16360/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+- name: grunt-contrib-clean
+  description: Clean files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-clean
+  version: '0.5'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15939/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+- name: grunt-contrib-concat
+  description: Concatenate files
+  package_url: https://www.npmjs.com/grunt-contrib-concat
+  version: '0.3'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16075/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+- name: grunt-contrib-connect
+  description: Start a connect web server
+  package_url: https://www.npmjs.com/grunt-contrib-connect
+  version: '0.5'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16236/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+- name: grunt-contrib-copy
+  description: Copy files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-copy
+  version: 0.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16056/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+- name: grunt-contrib-jasmine
+  description: Run jasmine specs headlessly through Headless Chrome
+  package_url: https://www.npmjs.com/grunt-contrib-jasmine
+  version: '0.5'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16820/default_1b078765f7b7ae4ccce598a7251eb06451511e5e.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+- name: grunt-contrib-jshint
+  description: Validate files with JSHint
+  package_url: https://www.npmjs.com/grunt-contrib-jshint
+  version: '0.7'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15898/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+- name: grunt-contrib-less
+  description: Compile LESS files to CSS
+  package_url: https://www.npmjs.com/grunt-contrib-less
+  version: '0.8'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16581/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+- name: grunt-contrib-uglify
+  description: Minify JavaScript files with UglifyJS
+  package_url: https://www.npmjs.com/grunt-contrib-uglify
+  version: '0.2'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+- name: grunt-contrib-watch
+  description: Run predefined tasks whenever watched file patterns are added
+  package_url: https://www.npmjs.com/grunt-contrib-watch
+  version: '0.5'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15932/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+- name: grunt-conventional-changelog
+  description: Generate a changelog using conventional-changelog
+  package_url: https://www.npmjs.com/grunt-conventional-changelog
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17072/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+- name: grunt-gh-pages
+  description: Publish to GitHub Pages with Grunt
+  package_url: https://www.npmjs.com/grunt-gh-pages
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17639/default_9126b5a628d81e3d41c9b1190587ab1aec9165c5.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+  vulnerabilities:
+  - name: grunt-gh-pages before 0.10.0 may allow unencrypted GitHub credentials to
+      be written to a log file
+    cve_id: CVE-2016-10526
+    cve_url: https://github.com/advisories/GHSA-rrj3-qmh8-72pf
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.10.0
+- name: grunt-jscs
+  description: Grunt task for checking JavaScript Code Style with jscs
+  package_url: https://www.npmjs.com/grunt-jscs
+  version: 0.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16510/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+- name: grunt-karma
+  description: Grunt plugin for karma test runner
+  package_url: https://www.npmjs.com/grunt-karma
+  version: '0.8'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16328/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+  vulnerabilities:
+  - name: Grunt-karma vulnerable to prototype pollution
+    cve_id: CVE-2022-37602
+    cve_url: https://github.com/advisories/GHSA-hcj4-xf6x-63wj
+    detected_date: Oct 20
+    severity: critical
+    first_patched: 
+- name: jit-grunt
+  description: JIT plugin loader for Grunt
+  package_url: https://www.npmjs.com/jit-grunt
+  version: 0.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17331/default_2f1b682e838d69744876821bf705f0b2974318b1.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-10-08 17:29:14.000000000 Z
+- name: jshint-stylish
+  description: Stylish reporter for JSHint
+  package_url: https://www.npmjs.com/jshint-stylish
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16031/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2014-04-30 14:26:20.000000000 Z
+- name: karma-chrome-launcher
+  description: A Karma plugin. Launcher for Chrome and Chrome Canary
+  package_url: https://www.npmjs.com/karma-chrome-launcher
+  version: '0.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2014-08-05 15:23:14.000000000 Z
+- name: karma-coverage
+  description: A Karma plugin. Generate code coverage
+  package_url: https://www.npmjs.com/karma-coverage
+  version: 0.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15951/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: c0bra
+  last_updated_on: 2014-09-24 21:00:03.000000000 Z
+- name: karma-firefox-launcher
+  description: A Karma plugin. Launcher for Firefox
+  package_url: https://www.npmjs.com/karma-firefox-launcher
+  version: '0.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16026/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2014-08-05 15:23:14.000000000 Z
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  version: '0.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2014-08-05 15:23:14.000000000 Z
+- name: karma-phantomjs-launcher
+  description: A Karma plugin. Launcher for PhantomJS
+  package_url: https://www.npmjs.com/karma-phantomjs-launcher
+  version: '0.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15947/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2014-08-05 15:23:14.000000000 Z
+- name: karma-requirejs
+  description: A Karma plugin. Adapter for RequireJS framework
+  package_url: https://www.npmjs.com/karma-requirejs
+  version: '0.2'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16817/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2014-08-05 15:23:14.000000000 Z
+- name: karma-sauce-launcher
+  description: A Karma plugin. Launch any browser on SauceLabs!
+  package_url: https://www.npmjs.com/karma-sauce-launcher
+  version: 0.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16460/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2014-08-05 15:23:14.000000000 Z
+- name: karma-script-launcher
+  description: A Karma plugin. Launcher for shell scripts
+  package_url: https://www.npmjs.com/karma-script-launcher
+  version: '0.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17382/default_b39374c3a74b433364bfdbff07be26214bf186fd.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2014-08-05 15:23:14.000000000 Z
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: '0.2'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2013-12-11 20:01:45.000000000 Z
+  vulnerabilities:
+  - name: Regular Expression Denial of Service in marked
+    cve_id: CVE-2017-16114
+    cve_url: https://github.com/advisories/GHSA-x5pg-88wf-qq4p
+    detected_date: Aug 22
+    severity: high
+    first_patched: 0.3.9
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Regular Expression Denial of Service in marked
+    cve_id: CVE-2015-8854
+    cve_url: https://github.com/advisories/GHSA-hjcp-j389-59ff
+    detected_date: Aug 22
+    severity: high
+    first_patched: 0.3.4
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Content injection in marked
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-wjmf-58vc-xqjr
+    detected_date: Aug 13
+    severity: moderate
+    first_patched: 0.3.9
+  - name: Cross-Site Scripting in marked
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8wp3-cp9v-44fm
+    detected_date: Aug 13
+    severity: moderate
+    first_patched: 0.3.9
+  - name: Moderate severity vulnerability that affects marked
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-32vw-r77c-gm67
+    detected_date: Aug 13
+    severity: moderate
+    first_patched: 0.3.3
+  - name: Sanitization bypass using HTML Entities in marked
+    cve_id: CVE-2016-10531
+    cve_url: https://github.com/advisories/GHSA-vfvf-mqq8-rwqc
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.3.6
+  - name: VBScript Content Injection in marked
+    cve_id: CVE-2015-1370
+    cve_url: https://github.com/advisories/GHSA-cfjh-p3g4-3q2f
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.3.3
+  - name: Moderate severity vulnerability that affects marked
+    cve_id: CVE-2017-17461
+    cve_url: https://github.com/advisories/GHSA-crmx-v835-hcp4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.3.9
+  - name: Multiple Content Injection Vulnerabilities in marked
+    cve_id: CVE-2014-3743
+    cve_url: https://github.com/advisories/GHSA-9cw2-jqp5-7x39
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.3.1
+  - name: Marked vulnerable to XSS from data URIs
+    cve_id: CVE-2017-1000427
+    cve_url: https://github.com/advisories/GHSA-7px7-7xjx-hxm8
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.3.7
+- name: selenium-webdriver
+  description: The official WebDriver JavaScript bindings from the Selenium project
+  package_url: https://www.npmjs.com/selenium-webdriver
+  version: 2.39.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16708/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2014-04-29 19:14:28.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 2.2.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2013-12-18 22:01:32.000000000 Z
+  vulnerabilities:
+  - name: Regular Expression Denial of Service in semver
+    cve_id: CVE-2015-8855
+    cve_url: https://github.com/advisories/GHSA-x6fg-f45m-jf5q
+    detected_date: Aug 22
+    severity: high
+    first_patched: 4.3.2
+  - name: semver vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2022-25883
+    cve_url: https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 5.7.2
+- name: shelljs
+  description: Portable Unix shell commands for Node.js
+  package_url: https://www.npmjs.com/shelljs
+  version: 0.2.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15897/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Hann
+  last_updated_on: 2013-12-20 21:23:50.000000000 Z
+  vulnerabilities:
+  - name: Improper Privilege Management in shelljs
+    cve_id: CVE-2022-0144
+    cve_url: https://github.com/advisories/GHSA-4rq4-32rv-6wp6
+    detected_date: Jan 22
+    severity: high
+    first_patched: 0.8.5
+  - name: Improper Privilege Management in shelljs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-64g7-mvw6-v9qj
+    detected_date: Jan 15
+    severity: moderate
+    first_patched: 0.8.5
+- name: google-code-prettify
+  description: Http://google-code-prettify.googlecode.com/
+  package_url: http://bower.io/google-code-prettify
+  version: 1.0.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Shane Walters
+  last_updated_on: 2014-08-04 16:53:38.000000000 Z
+- name: lodash
+  description: A modern JavaScript utility library delivering modularity
+  package_url: http://bower.io/lodash
+  version: 2.4.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Paul Lambert
+  last_updated_on: 2014-09-12 09:51:00.000000000 Z
+- name: pdfmake
+  description: Client/server side PDF printing in pure JavaScript
+  package_url: http://bower.io/pdfmake
+  version: 0.1.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/larabecker/ng-grid/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Paul Lambert
+  last_updated_on: 2014-09-12 09:51:00.000000000 Z
